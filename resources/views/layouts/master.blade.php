@@ -9,8 +9,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{ url('assets/img/favicon.png')}}" rel="icon">
-  <link href="{{ url('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{ url('assets/img/faviconn.jpg')}}" rel="icon">
+  <link href="{{ url('assets/img/faviconn.jpg')}}" rel="apple-touch-icon">
     
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -40,8 +40,8 @@
     <section id="topbar" class="d-flex align-items-center">
         <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
-            <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
+            <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">rajamobil@gmail.com</a>
+            <i class="bi bi-phone-fill phone-icon"></i> +62 8560 4833 794
         </div>
         <div class="social-links d-none d-md-block">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -56,7 +56,7 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
-        <h1 class="logo"><a href="index.html">WECAR</a></h1>
+        <h1 class="logo"><a href="index.html">Raja Mobil</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 

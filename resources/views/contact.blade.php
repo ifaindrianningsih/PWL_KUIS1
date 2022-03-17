@@ -20,15 +20,15 @@
             <div class="section-title">
             <span>Contact</span>
             <h2>Contact</h2>
-            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            <p>Untuk informasi lebih lanjut bisa hubungi kami melalui kontak berikut ini:</p>
             </div>
 
             <div class="row" data-aos="fade-up">
             <div class="col-lg-6">
                 <div class="info-box mb-4">
                 <i class="bx bx-map"></i>
-                <h3>Our Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>Alamat</h3>
+                <p>Jl.Soekarno Hatta No.9, Kecamatan Lowokwaru, Kota Malang</p>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
                 <div class="info-box  mb-4">
                 <i class="bx bx-envelope"></i>
                 <h3>Email Us</h3>
-                <p>contact@example.com</p>
+                <p>rajamobil@gmail.com</p>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                 <div class="info-box  mb-4">
                 <i class="bx bx-phone-call"></i>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>+62 8560 4833 794</p>
                 </div>
             </div>
 
