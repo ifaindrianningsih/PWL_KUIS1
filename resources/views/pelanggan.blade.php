@@ -19,4 +19,6 @@
         <p>Belum diberikan content hehe</p>
         <p>kamu bisa kok</p>
     </div>
+    
+            
 @endsection

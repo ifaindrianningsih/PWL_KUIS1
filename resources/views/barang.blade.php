@@ -26,10 +26,12 @@
 
             <div class="col-lg-4" data-aos="fade-up">
                 <div class="box">
-                <span>01</span>
-                <!-- kalo bisa disini dikasih gambar -->
-                <h4>Lorem Ipsum</h4>
-                <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                <span>Nama mobil</span>
+                <!-- kalo bisa disini dikasih gambar : ini misalnya  -->
+                <img src="assets/img/team/team-1.jpg" width="200" height="200">
+              
+                <h4>Harga</h4>
+                <p>(Deskripsi) Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
                 </div>
             </div>
 
