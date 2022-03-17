@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              
               <h4><a href="">(nama supplier)</a></h4>
               <p>Jenis supplier</p>
               <p>____________________________</p>

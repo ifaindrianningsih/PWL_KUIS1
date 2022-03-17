@@ -20,7 +20,7 @@
         <div class="section-title">
           <span>Pegawai</span>
           <h2>Pegawai</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <p>Daftar nama pegawai PT. Raja Mobil</p>
         </div>
 
         <div class="row">
