@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\barang;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BarangFactory extends Factory
@@ -11,6 +12,7 @@ class BarangFactory extends Factory
      *
      * @return array
      */
+    
     public function definition()
     {
         return [
