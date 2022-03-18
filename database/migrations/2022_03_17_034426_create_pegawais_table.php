@@ -13,12 +13,12 @@ class CreatePegawaisTable extends Migration
      */
     public function up()
     {
-        Schema::create('pegawais', function (Blueprint $table) {
+        Schema::create('pegawai', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->string('gambar')->nullable();
-            $table->string('jabatan');
-            $table->string('deskripsi');
+            $table->String('nama');
+            $table->String('gambar')->nullable();
+            $table->String('jabatan');
+            $table->String('deskripsi');
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ class CreatePegawaisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pegawais');
+        Schema::dropIfExists('pegawai');
     }
 }
