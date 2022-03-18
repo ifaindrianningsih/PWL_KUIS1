@@ -15,9 +15,14 @@ class CreateBarangsTable extends Migration
     {
         Schema::create('barang', function (Blueprint $table) {
             $table->id();
-            $table->String('nama_mobil', 15);
-            $table->String('gambar', 15);
-            $table->String('harga', 15);
+            $table->String('nama_mobil', 25);
+            $table->String('gambar');
+            $table->String('harga', 25);
+            $table->String('transmisi',15);
+            $table->String('bahan_bakar',15);
+            $table->String('mesin', 25);
+            $table->integer('tempat_duduk');
+            $table->String('varian_warna',50);
             $table->timestamps();
         });
     }
@@ -29,6 +34,6 @@ class CreateBarangsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('barangs');
+        Schema::dropIfExists('barang');
     }
 }

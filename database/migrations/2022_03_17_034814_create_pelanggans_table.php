@@ -13,8 +13,14 @@ class CreatePelanggansTable extends Migration
      */
     public function up()
     {
-        Schema::create('pelanggans', function (Blueprint $table) {
+        Schema::create('pelanggan', function (Blueprint $table) {
             $table->id();
+            $table->String('nama',50);
+            $table->String('alamat',50);
+            $table->String('produk',50);
+            $table->String('total_biaya',15);
+            $table->date('tanggal_transaksi');
+            $table->String('no_hp',20);
             $table->timestamps();
         });
     }
@@ -26,6 +32,6 @@ class CreatePelanggansTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pelanggans');
+        Schema::dropIfExists('pelanggan');
     }
 }

@@ -10,7 +10,7 @@
             <li><a class="nav-link scrollto" href="{{ url('contact')}}">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
+    </nav>
 @endsection
 
 @section('content')
@@ -19,71 +19,30 @@
             <div class="section-title">
                 <span>Barang</span>
                 <h2>Barang</h2>
-                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+                <p>Berbagai Merek Mobil dengan Kualitas Terbaik dapat Anda dapatkan di Raja Mobil</p>
             </div>
 
+            
             <div class="row">
-
-            <div class="col-lg-4" data-aos="fade-up">
-                <div class="box">
-                <span>Nama mobil</span>
-                <!-- kalo bisa disini dikasih gambar : ini misalnya  -->
-                <img src="assets/img/team/team-1.jpg" width="200" height="200">
-              
-                <h4>Harga</h4>
-                <p>(Deskripsi) Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                @foreach($data as $d)
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="box">
+                    <span>{{$d->nama_mobil}}</span>
+                    <img src="{{$d->gambar}}" width="308" height="200">
+                
+                    <h4>{{$d->harga}}</h4>
+                    <p>Transmisi : {{$d->transmisi}}</p>
+                    <p>Bahan bakar : {{$d->bahan_bakar}}</p>
+                    <p>Mesin : {{$d->mesin}}</p>
+                    <p>Tempat duduk : {{$d->tempat_duduk}}</p>
+                    <p>Varian warna : {{$d->varian_warna}}</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
-                <div class="box">
-                <span>02</span>
-                <!-- kalo bisa disini dikasih gambar -->
-                <h4>Repellat Nihil</h4>
-                <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                <div class="box">
-                <span>03</span>
-                <!-- kalo bisa disini dikasih gambar -->
-                <h4> Ad ad velit qui</h4>
-                <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4" data-aos="fade-up">
-                <div class="box">
-                <span>04</span>
-                <!-- kalo bisa disini dikasih gambar -->
-                <h4>Lorem Ipsum</h4>
-                <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="150">
-                <div class="box">
-                <span>05</span>
-                <!-- kalo bisa disini dikasih gambar -->
-                <h4>Repellat Nihil</h4>
-                <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="box">
-                <span>06</span>
-                <!-- kalo bisa disini dikasih gambar -->
-                <h4> Ad ad velit qui</h4>
-                <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-                </div>
-            </div>
-
+                @endforeach
 
             </div>
-
+            
         </div>
-        </section><!-- End Why Us Section -->
+        </section>
 
 @endsection
